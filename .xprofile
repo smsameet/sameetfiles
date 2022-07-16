@@ -1,0 +1,14 @@
+# Status Bar
+slstatus &
+
+# Compositor
+picom --experimental-backend -b
+
+# Keyboard Layouts
+setxkbmap -layout us,ir -option grp:alt_shift_toggle
+
+# Wallpaper
+nitrogen --restore &
+
+# Secend Monitor
+/home/sameet/.screenlayout/myscreens.sh
